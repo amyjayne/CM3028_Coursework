@@ -1,0 +1,23 @@
+body{
+    background-colour: red;
+}
+
+header{
+    background-colour: green;
+}
+
+main{
+    background-colour: blue;
+}
+
+section{
+    background-colour: orange;
+}
+
+aside{
+    background-colour: yellow;
+}
+
+article{
+    background-colour: purple;
+}
