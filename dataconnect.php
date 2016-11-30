@@ -9,5 +9,5 @@ $db = new mysqli(
     'cm3028d2'
 );
 if($db->connect_errno){
-    die('Connectfailed['.$db->connect_error.']');
+    die('Connect failed['.$db->connect_error.']');
 }
