@@ -1,0 +1,47 @@
+
+body {
+    text-align: center;
+    background-image:url();
+
+
+
+}
+
+header {
+    height: 100px;
+    background: #2d3e50;
+    width: 99.1%;
+    z-index: 10;
+    position: fixed;
+    color: white;
+    font-family: Verdana;
+    font-size: 10;
+
+
+}
+
+#banner {
+    width: 75%;
+    height: 100px;
+    position: fixed;
+    top: 90px;
+    
+
+}
+
+
+
+#content {
+    width: 100%;
+    position: relative;
+    top: 800px;
+    background: #2d3e50;
+    height: 1000px;
+    color: white;
+    font-size: 24;
+    padding-top: 5px;
+    font-family: Verdana;
+
+
+}
+
