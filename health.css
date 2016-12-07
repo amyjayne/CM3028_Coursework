@@ -1,0 +1,46 @@
+
+body {
+    text-align: center;
+
+
+
+}
+
+header {
+    height: 100px;
+    background: black;
+    width: 98.8%;
+    z-index: 10;
+    position: fixed;
+    color: white;
+    font-family: Verdana;
+    font-size: 10;
+
+
+}
+
+#banner {
+    width: 75%;
+    height: 100px;
+    position: fixed;
+    top: 90px;
+    
+
+}
+
+
+
+#content {
+    width: 100%;
+    position: relative;
+    top: 800px;
+    background: black;
+    height: 1000px;
+    color: white;
+    font-size: 24;
+    padding-top: 5px;
+    font-family: Verdana;
+
+
+}
+
