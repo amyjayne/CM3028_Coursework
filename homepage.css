@@ -1,0 +1,234 @@
+/* NAVIGATION BAR */
+.home-menu {
+    padding: 0.5em;
+    text-align: center;
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+    width: 1870px;
+    height: 6%; /* 55PX */
+    margin: auto;
+    opacity: 0.8;
+}
+.home-menu {
+    /*     opacity: 0.8; */
+    background: #2d3e50;
+}
+.pure-menu.pure-menu-fixed {
+    border-bottom: none;
+    position: absolute;
+    z-index: 4;
+    top: 10px;
+}
+
+.pure-menu-list {
+    list-style-type: none;
+    margin: 14px;
+    padding: 0;
+    width: 100%;
+    float: left;
+}
+
+ul {
+    float: left;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    position: center;
+    text-align: center;
+}
+
+li a {
+    /*    border-right: 1px solid #bbb; */
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 14px 175px;
+    text-decoration: none;
+    font-family: Berlin Sans FB;
+}
+
+li a:hover {
+    background-color: #bbb;
+    text-align: center;
+}
+
+/* ABOUT US BOX */
+.l-box-lrg {
+    padding: 1em;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+/* LOG IN HEADERS TEXT */
+.pure-form label {
+    margin: 1em 0 0;
+    /*    font-weight: bold; */
+    font-size: 100%;
+    font-family: Berlin Sans FB;
+}
+
+/* LOG IN FIELDS LAYOUT */
+.pure-form input[type] {
+    border: 2px solid #ddd;
+    box-shadow: none;
+    font-size: 100%;
+    width: 100%;
+    margin-bottom: 1em;
+    font-family: Berlin Sans FB;
+}
+
+/* LOG IN BUTTON */
+.pure-button {
+    background-color: #1f8dd6;
+    color: white;
+    padding: 0.5em 2em;
+    border-radius: 5px;
+}
+
+/* LOG IN BUTTON */
+a.pure-button-primary {
+    background: white;
+    color: #1f8dd6;
+    border-radius: 5px;
+    font-size: 120%;
+    font-family: Berlin Sans FB;
+}
+
+/* MAIN BLUE BACKGROUND */
+.splash-container {
+    background: #1f8dd6;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+    height: 88%;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+/* HOMEPAGE LAYOUT */
+.splash {
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    position: absolute;
+    top: 100px; left: 0; bottom: 0; right: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Berlin Sans FB;
+}
+
+/* PHOTO MAIN */
+#bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -4;
+}
+
+/* MAIN HOMEPAGE TEXT */
+.splash-head {
+    font-size: 20px;
+    color: white;
+    border: 3px solid white;
+    padding: 1em 1.6em;
+    font-weight: 100;
+    border-radius: 5px;
+    line-height: 1em;
+    font-family: Berlin Sans FB;
+}
+
+/* SUBHEADING TEXT */
+.splash-subhead {
+    color: white;
+    letter-spacing: 0.05em;
+    opacity: 0.8;
+}
+
+/* LOWER SECTIONS */
+.content-wrapper {
+    position: absolute;
+    top: 87%;
+    width: 1885px;
+    min-height: 12%;
+    z-index: 2;
+    background: white;
+    font-family: Berlin Sans FB;
+}
+
+/* SECTION HEADERS */
+.content-head {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 2em 0 1em;
+}
+
+/* HEADER TEXT */
+.content-head-ribbon {
+    color: white;
+}
+
+/* LOWER SECTION BACKGROUND */
+.ribbon {
+    font-size: 20px;
+    text-align: center;
+    background: #2d3e50;
+    color: #aaa;
+}
+
+/* WEATHER WIDGET */
+.aw-widget-current {
+    width: 1000px;
+    height: 100px;
+    margin: auto;
+}
+
+/* FOOTER */
+.footer {
+    background: #111;
+}
+
+/* Sizes for Tablets/Mobile Phones */
+@media (min-width: 48em) {
+    body {
+        font-size: 16px;
+    }
+
+    .content {
+        padding: 1em;
+    }
+
+    .home-menu {
+        text-align: left;
+    }
+    .home-menu ul {
+        float: right;
+    }
+
+    .splash {
+        width: 50%;
+        height: 50%;
+    }
+
+    .splash-head {
+        font-size: 250%;
+    }
+
+    .l-box-lrg {
+        border: none;
+    }
+
+    #bg {
+        width: 50%;
+        height: 50%;
+    }
+}
+
+@media (min-width: 78em) {
+    .splash-head {
+        font-size: 300%;
+    }
+}

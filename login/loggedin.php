@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: michaelcrabb
- * Date: 18/11/2015
- * Time: 11:20
- */
 session_start();
 $accesslevel = $_SESSION['access_level_session'];
 displayAccessLevelInformation($accesslevel);
