@@ -1,6 +1,6 @@
 <?php
 
-include("dataconnect.php")
+include("dbconnect.php")
 
     $username = $_POST["username"];
     $password = $_POST["password"];
@@ -18,7 +18,7 @@ include("dataconnect.php")
     if (checklogin($username, $password, $db)){
         session_start();
         $_SESSION['username'] = $username;
-        header("location:./");
+        header("location:index.html");
     }
 
 
