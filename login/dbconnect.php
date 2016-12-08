@@ -8,5 +8,5 @@ $db = new mysqli(
 );
 
 if (!$db) {
-    die('Connect Error: ' . mysqli_connect_errno());
+    die('Connect error: ' . mysqli_connect_errno());
 }
