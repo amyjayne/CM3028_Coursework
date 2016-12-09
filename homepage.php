@@ -53,13 +53,6 @@
         <div class="pure-g">
 
 
-            <?
-            if (isset($_SESSION['username'])) {
-                echo "<li><a href='logout.php'>Logout</a></li>";
-            } else {
-                echo "<li><a href='login.php'>Login</a></li>";
-            }
-            ?>
 
             <a href="http://www.accuweather.com/en/gb/portlethen/ab12-4/weather-forecast/710337" class="aw-widget-legal">
             </a><div id="awcc1480946197618" class="aw-widget-current"  data-locationkey="710337" data-unit="c" data-language="en-gb" data-useip="false" data-uid="awcc1480946197618"></div><script type="text/javascript" src="http://oap.accuweather.com/launch.js"></script>
