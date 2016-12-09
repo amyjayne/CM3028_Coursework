@@ -51,7 +51,6 @@
         <h2 class="content-head is-center">LOGIN</h2>
 
         <div class="pure-g">
-            <div id="login"><a href="login"></a></div>
 
             <?
             if (isset($_SESSION['username'])) {
