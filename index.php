@@ -23,7 +23,7 @@
         <h1 class="splash-head">Sportlethen</h1>
         <p class="splash-subhead">Community Sports Hub</p>
         <a href="login.php" class="pure-button pure-button-primary">Log In</a>
-        <!-- <img src="Photos/kidsgroup.jpg" ijbkjd="bg" alt="Slideshow"> -->
+        <!-- <img src="Photos/kidsgroup.jpg" id="bg" alt="Slideshow"> -->
         <img src="images/hockey.jpg" id="bg" alt="slideshow">
     </div>
 </div>
