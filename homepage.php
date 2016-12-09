@@ -52,20 +52,42 @@
 
         <div class="pure-g">
             <div id="login"><a href="login"></a></div>
-            <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
-                <form class="pure-form pure-form-stacked">
-                    <fieldset>
-
-                        <label for="username">Username</label>
-                        <input id="username" type="text" placeholder="Your Username">
-
-                        <label for="password">Password</label>
-                        <input id="password" type="password" placeholder="Your Password">
-
-                        <button type="login" class="pure-button">Sign In</button>
-                    </fieldset>
-                </form>
-            </div>
+            <?php
+            if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+                ?>
+                <main>
+                    <form action="login.php" method="post">
+                        <input type="text" name="username" placeholder="username"></br>
+                        <input type="password" name="password" placeholder="password"></br>
+                        <p><input type="submit" value="Submit"></p>
+                    </form>
+                </main>
+                <?
+            } elseif ($_SERVER['REQUEST_METHOD'] === 'POST') {
+                include("dbconnect.php");
+                $username = $_POST["username"];
+                $password = $_POST["password"];
+                function checklogin($username, $password, $db)
+                {
+                    $sql = "SELECT * FROM user WHERE username='" . $username . "' and password='" . $password . "'";
+                    $result = $db->query($sql);
+                    while ($row = $result->fetch_array()) {
+                        return true;
+                    }
+                    return false;
+                }
+                if (checklogin($username, $password, $db)) {
+                    session_start();
+                    $_SESSION['username'] = $username;
+                    header("location:home.php");
+                } else {
+                    header("location:home.php");
+                }
+            } else {
+                // this is impossible
+                print('whoops');
+            }
+            ?>
 
             <a href="http://www.accuweather.com/en/gb/portlethen/ab12-4/weather-forecast/710337" class="aw-widget-legal">
             </a><div id="awcc1480946197618" class="aw-widget-current"  data-locationkey="710337" data-unit="c" data-language="en-gb" data-useip="false" data-uid="awcc1480946197618"></div><script type="text/javascript" src="http://oap.accuweather.com/launch.js"></script>
