@@ -44,20 +44,17 @@
                 Our aim is to increase the profile for sport and the visibility of sport clubs in the local community and create a greater choice of sporting/fitness activities.
                 We hope that the hub will have a great impact in the development of the local community by improving access to sport and by supporting local sports clubs to work together.
             </p>
+            <div class="pure-g">
+                <a href="http://www.accuweather.com/en/gb/portlethen/ab12-4/weather-forecast/710337" class="aw-widget-legal">
+                </a><div id="awcc1480946197618" class="aw-widget-current"  data-locationkey="710337" data-unit="c" data-language="en-gb" data-useip="false" data-uid="awcc1480946197618"></div><script type="text/javascript" src="http://oap.accuweather.com/launch.js"></script>
+            </div>
         </div>
     </div>
 
     <div class="content">
 
 
-        <div class="pure-g">
 
-
-
-            <a href="http://www.accuweather.com/en/gb/portlethen/ab12-4/weather-forecast/710337" class="aw-widget-legal">
-            </a><div id="awcc1480946197618" class="aw-widget-current"  data-locationkey="710337" data-unit="c" data-language="en-gb" data-useip="false" data-uid="awcc1480946197618"></div><script type="text/javascript" src="http://oap.accuweather.com/launch.js"></script>
-
-        </div>
 
     </div>
 
