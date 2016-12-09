@@ -19,7 +19,7 @@ if (isset($_SESSION['username'])) //SESSION DOES EXIST
         $clubID = str_replace(' ', '-', $_POST["clubName"]);
         $clubName = $_POST["clubName"];
         $description = $_POST["description"];
-        $sql = "INSERT INTO club (clubID, clubName, description) VALUES ('". $clubID ."''". $clubName ."', '".$description."')";
+        $sql = "INSERT INTO club (clubID, clubName, description) VALUES ('". $clubID ."','". $accessID ."','". $clubName ."', '".$description."')";
         if (mysqli_query($db, $sql)) {
         } else {
             echo "Error: " . $sql . "<br>Error Message:" . mysqli_error($db);
