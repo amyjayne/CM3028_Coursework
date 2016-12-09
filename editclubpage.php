@@ -17,9 +17,10 @@ if (isset($_SESSION['username'])) //SESSION DOES EXIST
     } elseif ($_SERVER['REQUEST_METHOD'] === 'POST') {
         include ('dbconnect.php');
         $clubID = str_replace(' ', '-', $_POST["clubName"]);
+        $accessID = $_POST["accessID"];
         $clubName = $_POST["clubName"];
         $description = $_POST["description"];
-        $sql = "INSERT INTO club (clubID, clubName, description) VALUES ('". $clubID ."','". $accessID ."','". $clubName ."', '".$description."')";
+        $sql = "INSERT INTO club (clubID, accessID, clubName, description) VALUES ('". $clubID ."','". $accessID ."','". $clubName ."', '".$description."')";
         if (mysqli_query($db, $sql)) {
         } else {
             echo "Error: " . $sql . "<br>Error Message:" . mysqli_error($db);
