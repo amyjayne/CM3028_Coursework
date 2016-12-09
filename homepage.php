@@ -48,7 +48,7 @@
     </div>
 
     <div class="content">
-        <h2 class="content-head is-center">LOGIN</h2>
+
 
         <div class="pure-g">
 
