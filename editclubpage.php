@@ -1,6 +1,6 @@
 <?php
 session_start();
-if (isset($_SESSION['username'])) //SESSION DOES EXIST
+if (isset($_SESSION['username'])) //SESSION DOEvdsS EXIST
 {
     if ($_SERVER['REQUEST_METHOD'] === 'GET') {
         ?>
