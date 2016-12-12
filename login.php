@@ -21,7 +21,7 @@
 define('CSS_PATH', 'template/css/');
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     ?>
-<div id="login"
+<div id="login">
     <main>
         <form action="login.php" method="post">
             <input type="text" id="username" name="username" placeholder="USERNAME">
