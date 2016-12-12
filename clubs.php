@@ -13,13 +13,11 @@ while($row = $result->fetch_array())
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <title>Clubs Page</title>
-    <link rel="stylesheet" href="homepage.css">
     <link rel="stylesheet" href="clubspage.css">
-
 </head>
+
 <body>
 
 <div>
@@ -37,7 +35,6 @@ while($row = $result->fetch_array())
 <div id="banner">
     <p> clubs </p>
 </div>
-
 
 <div id="content">
     <div id="basketball">
