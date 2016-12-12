@@ -18,6 +18,11 @@
     </div>
 </div>
 
+<div id="banner">
+
+</div>
+
+
 <div id="content">
     <div id="basketball">
         <img src="images/basketball.jpg">
