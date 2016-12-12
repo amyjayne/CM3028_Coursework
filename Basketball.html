@@ -7,6 +7,17 @@
     <link rel="stylesheet" href="homepage.css">
     <link rel="stylesheet" href="Basketball.css">
 </head>
+
+
+
+<!--slideshow thing-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+
+
+
+
 <body>
 
 
@@ -35,15 +46,55 @@
 
     <div id="banner">
 
-        <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=en.uk%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;src=a8riso7s8bfkj460lkcisfnsfg%40group.calendar.google.com&amp;color=%23853104&amp;ctz=America%2FNew_York" style="border-width:0" width="90%" height="700" frameborder="0" scrolling="no"></iframe>
+        <meta name="viewport" content="width=device-width, initial-scale=auto">
+        <link rel="stylesheet" href="Basketball.css">
+        <!--Slideshow-->
+
+
+        <div class="w3-content w3-display-container">
+
+            <img class="mySlides" src="images/basketballslideshow.jpg"style="width:980px">
+            <img class="mySlides" src="images/boxingslideshow.jpg"style="width:980px" >
+            <img class="mySlides" src="images/hockeyslideshow.jpg"style="width:980px">
+
+
+            <a class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
+            <a class="w3-btn-floating w3-display-right" onclick="plusDivs(1)">&#10095;</a>
+        </div>
+
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+                showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                if (n > x.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = x.length}
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                x[slideIndex-1].style.display = "block";
+            }
+        </script>
 
     </div>
 
 
     <div id="content">
+        <p> Basketball</p>
 
 
-        <p></p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+        <!--slideshow thing-->
+
+
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=en.uk%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;src=a8riso7s8bfkj460lkcisfnsfg%40group.calendar.google.com&amp;color=%23853104&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="700" frameborder="0" scrolling="no"></iframe>
 
 
 
