@@ -10,7 +10,7 @@
 <div class="header">
     <div class="home-menu pure-menu pure-menu-fixed">
         <ul class="pure-menu-list">
-            <li><a href ="editclubpage.php">Home</a></li>
+            <li><a href ="signedin.php">Home</a></li>
             <li><a href ="clubs.html">Clubs</a></li>
             <li><a href ="health.html">Health and Fitness</a></li>
             <li><a href ="blog.html">Blog</a></li>
@@ -51,6 +51,7 @@
 
 
         <div class="pure-g">
+            <li><a href ="editclubpage.php">Home</a></li>
 
             <a href="http://www.accuweather.com/en/gb/portlethen/ab12-4/weather-forecast/710337" class="aw-widget-legal">
             </a><div id="awcc1480946197618" class="aw-widget-current"  data-locationkey="710337" data-unit="c" data-language="en-gb" data-useip="false" data-uid="awcc1480946197618"></div><script type="text/javascript" src="http://oap.accuweather.com/launch.js"></script>
