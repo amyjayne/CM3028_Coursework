@@ -27,7 +27,7 @@ if (isset($_SESSION['username']))
         <h1 class="splash-head">Sportlethen</h1>
         <p class="splash-subhead">Community Sports Hub</p>
         <a href="logout.php" class="pure-button pure-button-primary">Log Out</a>
-        <!-- <img src="Photos/kidsgroup.jpg" id="bg" alt="Slideshow"> -->
+        <!-- <img src="Phot os/kidsgroup.jpg" id="bg" alt="Slideshow"> -->
         <img src="images/hockey.jpg" id="bg" alt="slideshow">
     </div>
 </div>
