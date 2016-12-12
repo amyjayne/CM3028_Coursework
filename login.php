@@ -32,5 +32,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 } else {
     // this is impossible
     print('whoops');
+
+    include("signup.php");
 }
 ?>
+
