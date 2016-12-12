@@ -20,7 +20,7 @@
 
 <div id="banner">
 
-</div>
+
 
 
 <div id="content">
@@ -31,6 +31,7 @@
     </div>
 </div>
 
+</div>
 </body>
 </html>
 
