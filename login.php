@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Sportlethen</title>
-    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
 
@@ -17,18 +17,19 @@
     </div>
 </div>
 
-<div id="login">
 <?php
 define('CSS_PATH', 'template/css/');
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     ?>
+<div id="login"
     <main>
         <form action="login.php" method="post">
-            <input type="text" name="username" placeholder="username"></br>
-            <input type="password" name="password" placeholder="password"></br>
+            <input type="text" name="username" placeholder="username">
+            <input type="password" name="password" placeholder="password">
             <p><input type="submit" value="Submit"></p>
         </form>
     </main>
+</div>
     <?
 } elseif ($_SERVER['REQUEST_METHOD'] === 'POST') {
     include("dbconnect.php");
@@ -57,6 +58,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     include("signup.php");
 }
 ?>
-</div>
 
 </body>
