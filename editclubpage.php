@@ -17,7 +17,7 @@ if (isset($_SESSION['username'])) //SESSION DOEvdsS EXIST
         <?
     } elseif ($_SERVER['REQUEST_METHOD'] === 'POST') {
         include ('dbconnect.php');
-        $clubID = str_replace(' ', '-', $_POST["clubID"]);
+        //$clubID = str_replace(' ', '-', $_POST["clubID"]);
         $clubName = $_POST["clubName"];
         $description = $_POST["description"];
         $sql = "INSERT INTO club (clubID, clubName, description) VALUES ('". $clubID ."', ". $clubName ."', '".$description."')";
