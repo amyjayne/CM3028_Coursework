@@ -18,7 +18,7 @@
         <div class="home-menu pure-menu pure-menu-fixed">
 
             <ul class="pure-menu-list">
-                <li><a href ="index.php">Home</a></li>
+                <li><a href ="signedin.php">Home</a></li>
                 <li><a href ="clubspage.php">Clubs</a></li>
                 <li><a href ="health.php">Health and Fitness</a></li>
                 <li><a href ="contact.php">Contact</a></li>
