@@ -16,11 +16,12 @@ header {
     position: relative;
     top: 200px;
     background: #2d3e50;
-    height: 2000px;
+    height: auto;
     color: white;
     font-size: 24px;
     padding-top: 6px;
     text-align: Center;
+    align-content: left;
 
 
 
@@ -38,3 +39,26 @@ header {
     text-align: left;
     font-family: "Arial Black";
 }
+
+
+
+img {
+
+    opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    max-height: 500px;
+    max-width: auto;
+    padding-top: 10px;
+    margin: 10px;
+
+}
+img:hover {
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+}
+
+
