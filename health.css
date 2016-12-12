@@ -66,12 +66,13 @@ body {
     font-size: 24px;
     padding-top: 6px;
     text-align: left;
+    margin-left: 2px;
     margin: auto;
     font-family: Berlin Sans FB;
 }
 
 /* PHOTO MAIN */
-#ball {
+/* #ball {
     position: fixed;
     top: 0;
     left: 0;
@@ -96,6 +97,11 @@ body {
     min-width: 100%;
     min-height: 100%;
     z-index: -4;
+} */
+
+#image {
+    position: absolute;
+    text-align: center;
 }
 
 #content. iframe {
