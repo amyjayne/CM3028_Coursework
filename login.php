@@ -1,13 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Log In</title>
+    <meta charset="utf-8">
+    <title>Sportlethen</title>
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
 
+<div class="header">
+    <div class="home-menu pure-menu pure-menu-fixed">
+        <ul class="pure-menu-list">
+            <li><a href ="homepage.php">Home</a></li>
+            <li><a href ="clubs.php">Clubs</a></li>
+            <li><a href ="health.html">Health and Fitness</a></li>
+            <li><a href ="blog.html">Blog</a></li>
+        </ul>
+    </div>
+</div>
+
 <?php
+define('CSS_PATH', 'template/css/');
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     ?>
     <main>
