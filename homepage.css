@@ -76,6 +76,12 @@ li a:hover {
     font-family: Berlin Sans FB;
 }
 
+/* facebook */
+.fb-page {
+    margin: 450px;
+    width: 90%;
+}
+
 /* LOG IN BUTTON */
 .pure-button {
     background-color: #1f8dd6;
