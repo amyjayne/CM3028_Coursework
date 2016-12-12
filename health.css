@@ -1,0 +1,128 @@
+/* NAVIGATION BAR */
+.home-menu {
+    padding: 0;
+    text-align: center;
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+    max-width: 100%;
+    height: 6.5%; /* 55PX */
+    margin: auto;
+    opacity: 0.8;
+    background: #2d3e50;
+}
+
+.pure-menu.pure-menu-fixed {
+    border-bottom: none;
+    position: absolute;
+    z-index: 4;
+    top: 10px;
+    margin: auto;
+    width: 100%;
+}
+
+.pure-menu-list {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    float: left;
+}
+
+ul {
+    float: left;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    position: center;
+    text-align: center;
+}
+
+li a {
+    /*    border-right: 1px solid #bbb; */
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 14px 175px;
+    text-decoration: none;
+    font-family: Berlin Sans FB;
+}
+
+li a:hover {
+    background-color: #bbb;
+    text-align: center;
+}
+
+body {
+    text-align: center;
+}
+
+#content {
+    max-width: 80%;
+    position: relative;
+    top: 90px;
+    background: #2d3e50;
+    height: 1500px;
+    color: white;
+    font-size: 24px;
+    padding-top: 6px;
+    text-align: left;
+    margin: auto;
+    font-family: Berlin Sans FB;
+}
+
+/* PHOTO MAIN */
+#ball {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -4;
+}
+
+#box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -4;
+}
+
+#hock {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -4;
+}
+
+#content. iframe {
+    width:100%;
+    height: 100px;
+    position: absolute;
+    top: 70px;
+    font-size: 50px;
+    text-align: left;
+    font-family: Berlin Sans FB;
+}
+
+img {
+
+    opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    max-height: 500px;
+    max-width: auto;
+    padding-top: 10px;
+    margin: 10px;
+
+}
+img:hover {
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+}
