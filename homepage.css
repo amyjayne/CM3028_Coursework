@@ -18,11 +18,12 @@
     position: absolute;
     z-index: 4;
     top: 10px;
+    margin: auto;
 }
 
 .pure-menu-list {
     list-style-type: none;
-    margin: 14px;
+    margin: auto;
     padding: 0;
     width: 100%;
     float: left;
