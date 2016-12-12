@@ -17,21 +17,13 @@ while($row = $result->fetch_array())
     <meta charset="UTF-8">
     <title>Clubs Page</title>
     <link rel="stylesheet" href="homepage.css">
-    <link rel="stylesheet" href="clubs.css">
-
-
+    <link rel="stylesheet" href="clubspage.css">
 
 </head>
 <body>
 
 <div>
-
-
-
     <header>
-
-
-
         <div class="header">
             <div class="home-menu pure-menu pure-menu-fixed">
                 <ul class="pure-menu-list">
@@ -40,45 +32,23 @@ while($row = $result->fetch_array())
                     <li><a href ="health.html">Health and Fitness</a></li>
                     <li><a href ="blog.html">Blog</a></li>
                 </ul>
-
     </header>
-
 </div>
+
 <div id="banner">
-
     <p> clubs </p>
-
 </div>
 
 
 <div id="content">
-
-
-
-
-
     <div id="basketball">
-
-
         <p>
-
             <a href='club1.php'>{$clubName}</a>
-            <img src="images/basketball.jpg"
+            <img src="images/basketball.jpg">
         </p>
-    >
-
         <img src="images/boxing.jpg">
-
         <img src="images/hockey.jpg">
-
-
-
-
-
     </div>
-
-
-
 </div>
 
 
