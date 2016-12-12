@@ -39,8 +39,6 @@ while($row = $result->fetch_array())
 <div id="content">
     <div id="basketball">
         <p>
-<<<<<<< HEAD
-            An image that is a link:
             <a
                 <?
                 echo "<a href='club1.php'>{$clubName}</a>";
