@@ -61,11 +61,18 @@ while($row = $result->fetch_array())
 
 
         <p>
+            An image that is a link:
+            <a
+                <?
+                echo "<a href='club1.php'>{$clubName}</a>";
+                }
 
-            <a href='club1.php'>{$clubName}</a>
-            <img src="images/basketball.jpg"
+                ?>
+                <img src="images/basketball.jpg"
+            </a>
         </p>
-    >
+
+        <img src="images/basketball.jpg">
 
         <img src="images/boxing.jpg">
 
