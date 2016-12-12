@@ -10,10 +10,10 @@
 <div class="header">
     <div class="home-menu pure-menu pure-menu-fixed">
         <ul class="pure-menu-list">
-            <li><a href ="homepage.php">Home</a></li>
-            <li><a href ="clubs.html">Clubs</a></li>
-            <li><a href ="health.html">Health and Fitness</a></li>
-            <li><a href ="blog.html">Blog</a></li>
+            <li><a href ="index.php">Home</a></li>
+            <li><a href ="clubspage.php">Clubs</a></li>
+            <li><a href ="health.php">Health and Fitness</a></li>
+            <li><a href ="contact.php">Contact</a></li>
         </ul>
     </div>
 </div>
