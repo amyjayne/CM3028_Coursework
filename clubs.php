@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Clubs Page</title>
-    <link rel="stylesheet" href="clubspage.css">
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="clubs.css">
     
 </head>
 
 <body>
 
+<header>
 <div class="header">
     <div class="home-menu pure-menu pure-menu-fixed">
         <ul class="pure-menu-list">
@@ -16,7 +18,11 @@
             <li><a href ="clubs.php">Clubs</a></li>
             <li><a href ="health.php">Health and Fitness</a></li>
         </ul>
-    </div>
+</header>
+
+
+<div id= "banner">
+
 </div>
 
 <div id="content">
