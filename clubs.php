@@ -19,11 +19,6 @@
             <li><a href ="health.php">Health and Fitness</a></li>
         </ul>
 </header>
-
-</div>
-
-<div id= "banner">
-
 </div>
 
 <div id="content">
