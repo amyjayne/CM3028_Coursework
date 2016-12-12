@@ -88,8 +88,3 @@ while($row = $result->fetch_array())
 
 </body>
 </html>
-
-    echo "";
-}
-
-?>
