@@ -42,9 +42,21 @@ while($row = $result->fetch_array())
 <div id="content">
     <div id="basketball">
         <p>
-            <a href='club1.php'>{$clubName}</a>
-            <img src="images/basketball.jpg">
+<<<<<<< HEAD
+            An image that is a link:
+            <a
+                <?
+                echo "<a href='club1.php'>{$clubName}</a>";
+                }
+
+                ?>
+                <img src="images/basketball.jpg"
+            </a>
         </p>
+
+        <img src="images/basketball.jpg">
+
+>>>>>>> origin/master
         <img src="images/boxing.jpg">
         <img src="images/hockey.jpg">
     </div>
