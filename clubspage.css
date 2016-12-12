@@ -70,7 +70,7 @@ body {
 }
 
 /* PHOTO MAIN */
-#ball {
+/* #ball {
     position: fixed;
     top: 0;
     left: 0;
@@ -95,5 +95,33 @@ body {
     min-width: 100%;
     min-height: 100%;
     z-index: -4;
+} */
+
+#banner {
+
+    width:100%;
+    height: 100px;
+    position: fixed;
+    top: 70px;
+    font-size: 50px;
+    text-align: left;
+    font-family: "berlin sans";
 }
 
+#img {
+    opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    max-height: 500px;
+    max-width: auto;
+    padding-top: 10px;
+    margin: 10px;
+
+}
+#img:hover {
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+}
