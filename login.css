@@ -2,7 +2,10 @@
     background-color: #2d3e50;
     padding: 0.5em 2em;
     border-radius: 5px;
-    width: 100%;
+    width: 50%;
+    height: 100px;
+    position: relative;
+    text-align: center;
 }
 
 #username {
