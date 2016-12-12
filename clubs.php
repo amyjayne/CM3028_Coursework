@@ -8,20 +8,14 @@
 
 <body>
 
-<div>
-    <header>
-        <div class="header">
-            <div class="home-menu pure-menu pure-menu-fixed">
-                <ul class="pure-menu-list">
-                    <li><a href ="index.php">Home</a></li>
-                    <li><a href ="clubs.php">Clubs</a></li>
-                    <li><a href ="health.php">Health and Fitness</a></li>
-                </ul>
-    </header>
-</div>
-
-<div id="banner">
-    <p> clubs </p>
+<div class="header">
+    <div class="home-menu pure-menu pure-menu-fixed">
+        <ul class="pure-menu-list">
+            <li><a href ="index.php">Home</a></li>
+            <li><a href ="clubs.php">Clubs</a></li>
+            <li><a href ="health.php">Health and Fitness</a></li>
+        </ul>
+    </div>
 </div>
 
 <div id="content">
