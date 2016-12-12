@@ -34,9 +34,9 @@
         <div class="home-menu pure-menu pure-menu-fixed">
 
             <ul class="pure-menu-list">
-                <li><a href ="index.html">Home</a></li>
-                <li><a href ="clubs.html">Clubs</a></li>
-                <li><a href ="health.html">Health</a></li>
+                <li><a href ="index.php">Home</a></li>
+                <li><a href ="clubs.php">Clubs</a></li>
+                <li><a href ="health.php">Health</a></li>
 
             </ul>
         </div>
