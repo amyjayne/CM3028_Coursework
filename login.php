@@ -17,7 +17,7 @@
     </div>
 </div>
 
-<div class="login">
+<div id="login">
 <?php
 define('CSS_PATH', 'template/css/');
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {

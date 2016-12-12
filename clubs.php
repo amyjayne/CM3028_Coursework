@@ -20,16 +20,12 @@
 
 <div id="content">
     <div id="basketball">
-        <img src="images/basketball.jpg"
-        <img src="images/boxing.jpg">
-        <img src="images/hockey.jpg">
+        <img src="images/basketball.jpg">
+        <img src="images/basketball.jpg" id="ball" alt="image">
+        <img src="images/boxing.jpg" id="box" alt="image2">
+        <img src="images/hockey.jpg" id="hock" alt="image3">
     </div>
 </div>
-
-
-
-
-
 
 </body>
 </html>
