@@ -29,6 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
             <p><input type="submit" id="submit" value="Submit"></p>
         </form>
     </main>
+    <img src="images/hockey.jpg" id="bg" alt="slideshow">
 </div>
     <?
 } elseif ($_SERVER['REQUEST_METHOD'] === 'POST') {
