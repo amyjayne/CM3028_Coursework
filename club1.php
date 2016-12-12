@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Health Page</title>
+    <title>Sports Club</title>
     <link rel="stylesheet" href="club1.css">
 </head>
 
