@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Clubs Page</title>
-    <link rel="stylesheet" href="clubs.css">
+    <link rel="stylesheet" href="clubspage.css">
 </head>
 
 <body>
@@ -16,6 +16,10 @@
             <li><a href ="health.php">Health and Fitness</a></li>
         </ul>
     </div>
+</div>
+
+<div id="banner">
+
 </div>
 
 <div id="content">
