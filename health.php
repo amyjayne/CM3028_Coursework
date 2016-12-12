@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Health Page</title>
-    <link rel="stylesheet" href="clubspage.css">
+    <link rel="stylesheet" href="health.css">
 </head>
 <body>
 
