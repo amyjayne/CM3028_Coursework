@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <title>Health Page</title>
     <link rel="stylesheet" href="homepage.css">
-    <link rel="stylesheet" href="Basketball.css">
+    <link rel="stylesheet" href="club1.css">
 </head>
 
 
