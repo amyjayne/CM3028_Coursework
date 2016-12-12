@@ -9,7 +9,7 @@ while($row = $result->fetch_array())
     $clubName = $row['clubName'];
     $description = $row['description'];
 
-    echo "<li><a href='club/{$clubID}'>{$clubName}</a>{$description}</li>";
+    echo "<li><a href='{$clubID}'>{$clubName}</a>{$description}</li>";
 }
 
 ?>
