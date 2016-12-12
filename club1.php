@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Sports Club</title>
-    <link rel="stylesheet" href="club1.css">
+    <link rel="stylesheet" href="css/club1.css">
 </head>
 
 
