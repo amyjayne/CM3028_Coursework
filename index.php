@@ -13,7 +13,7 @@
             <li><a href ="index.php">Home</a></li>
             <li><a href ="clubspage.php">Clubs</a></li>
             <li><a href ="health.php">Health and Fitness</a></li>
-            <li><a href ="logout.php">Log Out</a></li>
+            <li><a href ="login.php">Log In</a></li>
         </ul>
     </div>
 </div>
