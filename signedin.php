@@ -15,12 +15,10 @@ if (isset($_SESSION['username']))
 <script>(function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
-        js = d.createElement(s);
-        js.id = id;
+        js = d.createElement(s); js.id = id;
         js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
         fjs.parentNode.insertBefore(js, fjs);
-    } (document, 'script', 'facebook-jssdk'));
-</script>
+    }(document, 'script', 'facebook-jssdk'));</script>
 
 
 <div class="header">
@@ -69,15 +67,7 @@ if (isset($_SESSION['username']))
                     <a href="http://www.accuweather.com/en/gb/portlethen/ab12-4/weather-forecast/710337" class="aw-widget-legal">
                     </a><div id="awcc1480946197618" class="aw-widget-current"  data-locationkey="710337" data-unit="c" data-language="en-gb" data-useip="false" data-uid="awcc1480946197618"></div><script type="text/javascript" src="http://oap.accuweather.com/launch.js"></script>
 
-                    <div class="fb-page" data-href="https://www.facebook.com/Sportlethen/"
-                         data-width="500"
-                         data-height="10"
-                         data-small-header="false"
-                         data-adapt-container-width="true"
-                         data-hide-cover="true"
-                         data-show-facepile="false"><blockquote
-                            cite="https://www.facebook.com/Sportlethen/" class="fb-xfmbl-parse-ignore"><a href="https://www.facebook.com/Sportlethen/">Sportlethen CSH</a></blockquote>
-                    </div>
+                    <div class="fb-page" data-href="https://www.facebook.com/Sportlethen/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Sportlethen/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Sportlethen/">Sportlethen CSH</a></blockquote></div>
 
                 </div>
 
