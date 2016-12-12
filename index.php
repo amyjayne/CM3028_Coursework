@@ -10,10 +10,10 @@
 <div class="header">
     <div class="home-menu pure-menu pure-menu-fixed">
         <ul class="pure-menu-list">
-            <li><a href ="homepage.php">Home</a></li>
-            <li><a href ="clubs.php">Clubs</a></li>
-            <li><a href ="health.html">Health and Fitness</a></li>
-            <li><a href ="blog.html">Blog</a></li>
+            <li><a href ="index.php">Home</a></li>
+            <li><a href ="clubspage.php">Clubs</a></li>
+            <li><a href ="health.php">Health and Fitness</a></li>
+            <li><a href ="logout.php">Log Out</a></li>
         </ul>
     </div>
 </div>
@@ -23,7 +23,7 @@
         <h1 class="splash-head">Sportlethen</h1>
         <p class="splash-subhead">Community Sports Hub</p>
         <a href="login.php" class="pure-button pure-button-primary">Log In</a>
-        <!-- <img src="Photos/kidsgroup.jpg" id="bg" alt="Slideshow">  -->
+        <!-- <img src="Photos/kidsgroup.jpg" id="bg" alt="Slideshow"> -->
         <img src="images/hockey.jpg" id="bg" alt="slideshow">
     </div>
 </div>

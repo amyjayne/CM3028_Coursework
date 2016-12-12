@@ -4,5 +4,5 @@ if (isset($_SESSION['username']))
 {
     unset($_SESSION['username']);
 }
-header("location:indexex.php");
+header("location:index.php");
 ?>

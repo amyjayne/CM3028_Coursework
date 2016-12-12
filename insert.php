@@ -1,6 +1,6 @@
 <?php
 
-include("dataconnect.php");
+include("dbconnect.php");
 
 $about = $_POST["about"];
 
@@ -12,5 +12,5 @@ else {
     echo "Error: " . $sql . "<br>" . mysqli_error($db);
 }
 
-header("location:home.php");
+header("location:index.php");
 ?>
