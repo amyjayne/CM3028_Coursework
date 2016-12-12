@@ -52,7 +52,7 @@ li a:hover {
     text-align: center;
 }
 
-body {
+/* body {
     text-align: center;
 }
 
@@ -62,7 +62,7 @@ header {
     position: fixed;
     top:1px;
     z-index: 10;
-}
+} */
 
 #content {
     max-width: 100%;
