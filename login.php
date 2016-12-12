@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Log In</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     ?>
@@ -37,3 +46,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 }
 ?>
 
+</body>
