@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Clubs Page</title>
     <link rel="stylesheet" href="clubspage.css">
+    
 </head>
 
 <body>
@@ -20,7 +21,6 @@
 
 <div id="content">
     <div id="basketball">
-        -        <img src="images/basketball.jpg">
         <img src="images/basketball.jpg" id="ball" alt="image">
         <img src="images/boxing.jpg" id="box" alt="image2">
         <img src="images/hockey.jpg" id="hock" alt="image3">
