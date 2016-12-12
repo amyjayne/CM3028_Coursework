@@ -10,6 +10,7 @@
 
 <body>
 
+<div>
 <header>
 <div class="header">
     <div class="home-menu pure-menu pure-menu-fixed">
@@ -20,6 +21,7 @@
         </ul>
 </header>
 
+</div>
 
 <div id= "banner">
 
