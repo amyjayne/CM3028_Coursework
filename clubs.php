@@ -1,15 +1,3 @@
-<?php
-include("dbconnect.php");
-
-$sql = "SELECT * FROM club";
-$result = $db->query($sql);
-while($row = $result->fetch_array())
-{
-    $clubID = $row['clubID'];
-    $clubName = $row['clubName'];
-    $description = $row['description'];
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,6 +28,17 @@ while($row = $result->fetch_array())
     <div id="basketball">
         <p>
             <a
+            <?php
+            include("dbconnect.php");
+
+            $sql = "SELECT * FROM club";
+            $result = $db->query($sql);
+            while($row = $result->fetch_array())
+            {
+                $clubID = $row['clubID'];
+                $clubName = $row['clubName'];
+                $description = $row['description'];
+                ?>
                 <?
                 echo "<a href='club1.php'>{$clubName}</a>";
                 }
