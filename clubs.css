@@ -1,0 +1,63 @@
+
+body {
+    text-align: center;
+
+}
+header {
+    max-width: 70%;
+    height: 1000px;
+    position: fixed;
+    top:1px;
+    z-index: 10;
+
+}
+
+#content {
+    max-width: 100%;
+    position: relative;
+    top: 200px;
+    background: #2d3e50;
+    height: auto;
+    color: white;
+    font-size: 24px;
+    padding-top: 6px;
+    text-align: Center;
+    align-content: left;
+
+
+
+
+
+}
+
+#banner {
+
+    width:100%;
+    height: 100px;
+    position: fixed;
+    top: 70px;
+    font-size: 50px;
+    text-align: left;
+    font-family: "berlin sans";
+}
+
+
+
+img {
+
+    opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    max-height: 500px;
+    max-width: auto;
+    padding-top: 10px;
+    margin: 10px;
+
+}
+img:hover {
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+}
