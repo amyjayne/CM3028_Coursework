@@ -53,39 +53,27 @@ li a:hover {
     text-align: center;
 }
 
-/* BLOG POSTS */
-.blog {
-    padding: 5px 10px;
-    position: absolute;
-    top: 10%;
-    width: 1867px;
-    min-height: 1%;
-    z-index: 2;
-    font-size: 30px;
-    font-family: Berlin Sans FB;
-    text-align: left;
-    background: #bbb;
+body {
+    text-align: center;
 }
 
-/* SECTION HEADERS */
-.post-title {
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    margin: 0em 0 0em;
-    color: white;
+header {
+    max-width: 70%;
+    height: 1000px;
+    position: fixed;
+    top:1px;
+    z-index: 10;
 }
 
-.content {
-    padding:5px 10px;
-    position: absolute;
-    top: 16.5%;
-    width: 1867px;
-    min-height: 20%;
-    z-index: 2;
-    font-size: 30px;
-    font-family: Berlin Sans FB;
-    text-align: left;
+#content {
+    max-width: 80%;
+    position: relative;
+    top: 90px;
     background: #2d3e50;
-    opacity: 0.8;
+    height: 1800px;
+    color: white;
+    font-size: 24px;
+    padding-top: 6px;
+    text-align: center;
+    margin: auto;
 }
