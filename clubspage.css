@@ -68,3 +68,31 @@ body {
     text-align: center;
     margin: auto;
 }
+
+/* PHOTO MAIN */
+#ball {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -4;
+}
+
+#box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -4;
+}
+
+#hock {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -4;
+}
