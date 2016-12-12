@@ -60,8 +60,12 @@ while($row = $result->fetch_array())
     <div id="basketball">
 
 
+        <p>
 
-        <img src="images/basketball.jpg">
+            <a href='club1.php'>{$clubName}</a>
+            <img src="images/basketball.jpg"
+        </p>
+    >
 
         <img src="images/boxing.jpg">
 
@@ -85,7 +89,7 @@ while($row = $result->fetch_array())
 </body>
 </html>
 
-    echo "<li><a href='club1.php'>{$clubName}</a></li>";
+    echo "";
 }
 
 ?>
