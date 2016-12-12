@@ -13,11 +13,11 @@
             <li><a href ="homepage.php">Home</a></li>
             <li><a href ="clubs.php">Clubs</a></li>
             <li><a href ="health.html">Health and Fitness</a></li>
-            <li><a href ="blog.html">Blog</a></li>
         </ul>
     </div>
 </div>
 
+<div class="login">
 <?php
 define('CSS_PATH', 'template/css/');
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
@@ -57,5 +57,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     include("signup.php");
 }
 ?>
+</div>
 
 </body>
