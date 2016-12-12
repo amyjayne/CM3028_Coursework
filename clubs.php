@@ -26,29 +26,7 @@
 
 <div id="content">
     <div id="basketball">
-        <p>
-            <a
-            <?php
-            include("dbconnect.php");
-
-            $sql = "SELECT * FROM club";
-            $result = $db->query($sql);
-            while($row = $result->fetch_array())
-            {
-                $clubID = $row['clubID'];
-                $clubName = $row['clubName'];
-                $description = $row['description'];
-                ?>
-                <?
-                echo "<a href='club1.php'>{$clubName}</a>";
-                }
-
-                ?>
-                <img src="images/basketball.jpg"
-            </a>
-        </p>
-
->>>>>>> origin/master
+        <img src="images/basketball.jpg"
         <img src="images/boxing.jpg">
         <img src="images/hockey.jpg">
     </div>
@@ -61,3 +39,20 @@
 
 </body>
 </html>
+
+<?php
+include("dbconnect.php");
+
+$sql = "SELECT * FROM club";
+$result = $db->query($sql);
+while($row = $result->fetch_array())
+{
+    $clubID = $row['clubID'];
+    $clubName = $row['clubName'];
+    $description = $row['description'];
+    ?>
+    <?
+    echo "<a href='club1.php'>{$clubName}</a>";
+}
+
+?>
