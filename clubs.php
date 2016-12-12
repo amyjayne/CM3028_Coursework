@@ -49,8 +49,6 @@ while($row = $result->fetch_array())
             </a>
         </p>
 
-        <img src="images/basketball.jpg">
-
 >>>>>>> origin/master
         <img src="images/boxing.jpg">
         <img src="images/hockey.jpg">
