@@ -58,6 +58,7 @@ li a:hover {
     border: 3px solid white;
     border-radius: 5px;
     top: 35%;
+    left: 35%;
     min-width: 75px;
     min-height: 150px;
     position: absolute;
