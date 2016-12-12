@@ -9,6 +9,7 @@
 
 <body>
 
+<header>
 <div class="header">
     <div class="home-menu pure-menu pure-menu-fixed">
         <ul class="pure-menu-list">
@@ -16,7 +17,11 @@
             <li><a href ="clubs.php">Clubs</a></li>
             <li><a href ="health.php">Health and Fitness</a></li>
         </ul>
-    </div>
+</header>
+
+
+<div id= "banner">
+
 </div>
 
 <div id="content">
