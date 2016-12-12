@@ -24,9 +24,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 <div id="login"
     <main>
         <form action="login.php" method="post">
-            <input type="text" name="username" placeholder="username">
-            <input type="password" name="password" placeholder="password">
-            <p><input type="submit" value="Submit"></p>
+            <input type="text" id="username" name="username" placeholder="USERNAME">
+            <input type="password" id="password" name="password" placeholder="PASSWORD">
+            <p><input type="submit" id="submit" value="Submit"></p>
         </form>
     </main>
 </div>
