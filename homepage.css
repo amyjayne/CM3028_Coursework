@@ -7,11 +7,9 @@
     height: 6%; /* 55PX */
     margin: auto;
     opacity: 0.8;
-}
-.home-menu {
-    /*     opacity: 0.8; */
     background: #2d3e50;
 }
+
 .pure-menu.pure-menu-fixed {
     border-bottom: none;
     position: absolute;
