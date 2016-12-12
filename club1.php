@@ -9,7 +9,7 @@ while($row = $result->fetch_array())
     $clubName = $row['clubName'];
     $description = $row['description'];
 
-    echo "<li> {$clubName} {$description}</li>";
+    echo "<li> {$clubName} </br> {$description}</li>";
 }
 
 ?>
