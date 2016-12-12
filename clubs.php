@@ -29,7 +29,12 @@
 
 <div id="content">
     <div id="basketball">
-        <img src="images/basketball.jpg" id="ball" alt="image">
+        <p>
+            <a href="club1.php">
+                <img src="images/basketball.jpg">
+            </a>
+        </p>
+        <img src="" id="ball" alt="image">
         <img src="images/boxing.jpg" id="box" alt="image2">
         <img src="images/hockey.jpg" id="hock" alt="image3">
     </div>
