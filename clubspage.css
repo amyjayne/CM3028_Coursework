@@ -56,14 +56,6 @@ body {
     text-align: center;
 }
 
-header {
-    max-width: 70%;
-    height: 1000px;
-    position: fixed;
-    top:1px;
-    z-index: 10;
-}
-
 #content {
     max-width: 80%;
     position: relative;
