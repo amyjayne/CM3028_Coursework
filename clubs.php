@@ -18,10 +18,6 @@
     </div>
 </div>
 
-<div id="banner">
-    <p> clubs </p>
-</div>
-
 <div id="content">
     <div id="basketball">
         <p>
