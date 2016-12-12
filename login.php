@@ -51,7 +51,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
         header("location:signedin.php");
     } else {
         header("location:login.php");
-        print('Wrong username or password!')
     }
 } else {
     // this is impossible
