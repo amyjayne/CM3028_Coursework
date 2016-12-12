@@ -3,9 +3,8 @@
     padding: 0.5em;
     text-align: center;
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
-    max-width: 1870px;
-    min-width: 583px;
-    height: auto;
+    max-width: 100%;
+    height: 6%; /* 55PX */
     margin: auto;
     opacity: 0.8;
 }
@@ -18,11 +17,12 @@
     position: absolute;
     z-index: 4;
     top: 10px;
+    margin: auto;
 }
 
 .pure-menu-list {
     list-style-type: none;
-    margin: 14px;
+    margin: auto;
     padding: 0;
     width: 100%;
     float: left;

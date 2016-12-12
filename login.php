@@ -1,13 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Log In</title>
+    <meta charset="utf-8">
+    <title>Sportlethen</title>
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
 
+<div class="login">
 <?php
+define('CSS_PATH', 'template/css/');
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     ?>
     <main>
@@ -45,5 +47,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     include("signup.php");
 }
 ?>
+</div>
 
 </body>
